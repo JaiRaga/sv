@@ -28,19 +28,19 @@ const Content = () => {
 					width='300px'
 					height='300px'
 					controls
-					autoplay
+					autoplay='autoplay'
 					muted
 					poster={samplePic}>
 					<source src={one} />
 				</video>
 			</Grid>
 			<Grid item>
-				<video width='300px' height='300px' controls>
+				<video width='300px' height='300px' controls autoplay='autoplay' loop>
 					<source src={two} />
 				</video>
 			</Grid>
 			<Grid item>
-				<video width='300px' height='300px' autoplay>
+				<video width='300px' height='300px' controls autoplay='autoplay' loop>
 					<source src={three} />
 				</video>
 			</Grid>
