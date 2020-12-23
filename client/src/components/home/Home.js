@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 
-import Content from '../content/Content';
+// import Content from '../content/Content';
 import CameraPage from '../camera/CameraPage';
 
 const Home = () => {
